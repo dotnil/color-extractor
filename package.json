@@ -1,6 +1,6 @@
 {
   "name": "color-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the most common colors in an image.",
   "main": "index.js",
   "scripts": {
