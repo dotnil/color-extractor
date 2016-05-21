@@ -1,0 +1,16 @@
+{
+  "name": "color-extract",
+  "version": "1.0.0",
+  "description": "Get the most common colors in an image.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ye Hao <yehao127@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "co": "^4.6.0",
+    "uuid": "^2.0.2"
+  }
+}
