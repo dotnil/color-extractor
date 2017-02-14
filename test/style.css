@@ -1,0 +1,42 @@
+.white-text {
+  color: #fff;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#table {
+  border-collapse: collapse;
+  border: none;
+}
+
+#table img {
+  max-height: 200px;
+}
+
+#table .img {
+  width: 200px;
+  text-align: center;
+}
+
+#table li {
+  height: 20px;
+  line-height: 20px;
+}
+
+#table .colors, #table .dominant {
+  font-family: consolus, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#table .colors {
+  width: 200px;
+}
+
+#table .dominant {
+  width: 100px;
+}
