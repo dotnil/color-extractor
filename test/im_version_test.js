@@ -2,7 +2,7 @@ var fs = require('fs')
 var path = require('path')
 var co = require('co')
 
-var ColorExtractor = require('../color-extractor-im')
+var colorExtractor = require('../lib/color-extractor-im')
 
 var imagePaths = []
 
@@ -25,7 +25,6 @@ function writeFile(contents, filePath) {
 
 co(function *() {
   var results = []
-  var colorExtractor = new ColorExtractor()
   var result
 
   for (var i = 0; i < imagePaths.length; i++) {

@@ -7,7 +7,7 @@ for (var i = 1; i <= 74; i++) {
 }
 
 imagePaths = imagePaths.map(function(sequence) {
-  return '/~lingzheng/central_modules/color-extract/test/img/' + sequence + '.jpg'
+  return './img/' + sequence + '.jpg'
 })
 
 function getDominentColor(colors) {

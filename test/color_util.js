@@ -54,3 +54,5 @@ var ColorUtil = {
     return 1.05 / (luminance + 0.05)
   }
 }
+
+if (typeof module !== 'undefined') module.exports = ColorUtil
